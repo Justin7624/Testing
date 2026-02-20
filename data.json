@@ -1,0 +1,1553 @@
+{
+  "updated": "2026-02-19",
+  "guide": [
+    {
+      "key": "glp3rt",
+      "name": "GLP-3RT (Retatrutide)",
+      "badge": "Weight",
+      "category": "weight",
+      "short": "Strong appetite support; many use it to help cut cravings and stay full longer.",
+      "onset": "Some notice appetite changes within 1\u20132 weeks; results build over time.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "30 mg",
+        "40 mg",
+        "50 mg",
+        "60 mg",
+        "10mg kit x10",
+        "20mg kit x10"
+      ],
+      "stock": {
+        "5 mg": 31,
+        "10 mg": 105,
+        "15 mg": 9,
+        "20 mg": 99,
+        "30 mg": 6,
+        "40 mg": 9,
+        "50 mg": 10,
+        "60 mg": 10,
+        "10mg kit x10": 8,
+        "20mg kit x10": 9
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "glp2tz",
+      "name": "GLP-2TZ (Tirzepatide)",
+      "badge": "Weight",
+      "category": "weight",
+      "short": "Helps reduce appetite and can support steadier blood sugar.",
+      "onset": "Typically gradual\u2014many describe changes week by week.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "30 mg",
+        "40 mg",
+        "50 mg",
+        "60 mg",
+        "100 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 19,
+        "15 mg": 19,
+        "20 mg": 7,
+        "30 mg": 8,
+        "40 mg": 10,
+        "50 mg": 10,
+        "60 mg": 10,
+        "100 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "glp1sg",
+      "name": "GLP-1SG (Semaglutide)",
+      "badge": "Weight",
+      "category": "weight",
+      "short": "Popular for appetite control\u2014can make smaller meals feel satisfying.",
+      "onset": "Many notice appetite changes within a few weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "15 mg",
+        "20 mg"
+      ],
+      "stock": {
+        "5 mg": 26,
+        "10 mg": 28,
+        "15 mg": 10,
+        "20 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "survodutide",
+      "name": "Survodutide",
+      "badge": "Weight",
+      "category": "weight",
+      "short": "Dual-agonist research peptide explored for metabolic and weight-related pathways.",
+      "onset": "Gradual, often over weeks",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "cagrilintide",
+      "name": "Cagrilintide",
+      "badge": "Weight",
+      "category": "weight",
+      "short": "Amylin-pathway support\u2014often described as \u201cquieting food noise.\u201d",
+      "onset": "Gradual over weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 14,
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "motsc",
+      "name": "MOTS-C",
+      "badge": "Metabolic",
+      "category": "energy",
+      "short": "Metabolism/energy support\u2014some describe better stamina and \u201ccleaner\u201d energy.",
+      "onset": "Subtle at first; often discussed as building over weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg",
+        "30 mg",
+        "40 mg"
+      ],
+      "stock": {
+        "10 mg": 17,
+        "30 mg": 9,
+        "40 mg": 5
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "bpc157",
+      "name": "BPC-157",
+      "badge": "Recovery",
+      "category": "healing",
+      "short": "Often used for injury recovery\u2014tendons, joints, and \u201cnagging\u201d aches.",
+      "onset": "Some feel relief in days; deeper recovery takes longer.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg",
+        "20 mg"
+      ],
+      "stock": {
+        "10 mg": 7,
+        "20 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "wolverinebpc5mgtb5mg",
+      "name": "BPC 5mg + TB 5mg (Combo)",
+      "badge": "Recovery",
+      "category": "healing",
+      "short": "Combo recovery vial\u2014often used for joints, mobility, and soft tissue repair support.",
+      "onset": "Often described as gradual over weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 9
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "wolverinebpc10mgtb10",
+      "name": "BPC 10mg + TB 10mg (Combo)",
+      "badge": "Recovery",
+      "category": "healing",
+      "short": "Higher strength combo\u2014aimed at longer recovery runs and stubborn issues.",
+      "onset": "Often described as gradual over weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "20 mg"
+      ],
+      "stock": {
+        "20 mg": 8
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "tb500",
+      "name": "TB500 (Thymosin B4 Acetate)",
+      "badge": "Recovery",
+      "category": "healing",
+      "short": "Commonly used to support mobility, recovery, and soft tissue repair.",
+      "onset": "Usually described as building over weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "melanotan",
+      "name": "Melanotan",
+      "badge": "Tanning",
+      "category": "tanning",
+      "short": "Supports tanning response\u2014can help deepen tone with less sun exposure.",
+      "onset": "Often noticeable over days to weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 9
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "melanotan2",
+      "name": "Melanotan 2",
+      "badge": "Tanning",
+      "category": "tanning",
+      "short": "Similar tanning support\u2014many describe faster/deeper results than MT-1.",
+      "onset": "Often noticeable over days to weeks.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 9
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "glow",
+      "name": "GLOW",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Beauty-style blend\u2014marketed for skin glow, tone, and overall wellness vibes.",
+      "onset": "Usually gradual (weeks+).",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "70 mg"
+      ],
+      "stock": {
+        "70 mg": 17
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "klow",
+      "name": "KLOW",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Wellness blend\u2014often described as \u201cfeel-good\u201d support and body balance.",
+      "onset": "Usually gradual (weeks+).",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "80 mg"
+      ],
+      "stock": {
+        "80 mg": 25
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "nad",
+      "name": "NAD+",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Energy + clarity support\u2014people use it for a \u201creset\u201d feeling and better drive.",
+      "onset": "Some feel it same-day; others notice gradually.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "500 mg",
+        "1000 mg"
+      ],
+      "stock": {
+        "500 mg": 22,
+        "1000 mg": 27
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "ipamorelin",
+      "name": "Ipamorelin",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "GH-support peptide\u2014used for recovery, sleep quality, and body composition goals.",
+      "onset": "Often subtle; tends to be gradual.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 7,
+        "10 mg": 14
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "tesamorelin",
+      "name": "Tesamorelin",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Often used for body composition\u2014especially \u201cstubborn\u201d midsection goals.",
+      "onset": "Gradual over weeks to months.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 6,
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "sermorelinacetate",
+      "name": "Sermorelin Acetate",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "GH-pathway support\u2014often used to improve recovery and overall \u201crested\u201d feeling.",
+      "onset": "Gradual.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "ss31",
+      "name": "SS-31",
+      "badge": "Longevity",
+      "category": "energy",
+      "short": "Mito support\u2014marketed for steadier energy and better \u201ccell power.\u201d",
+      "onset": "Often subtle; builds with time.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg",
+        "50 mg"
+      ],
+      "stock": {
+        "10 mg": 18,
+        "50 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "igf1lr3",
+      "name": "IGF-1 LR3",
+      "badge": "Performance",
+      "category": "energy",
+      "short": "Performance/growth support\u2014often discussed for muscle and recovery goals.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "1 mg"
+      ],
+      "stock": {
+        "1 mg": 10
+      },
+      "more": "<ul><li>Higher-risk category\u2014do serious research and consider professional guidance.</li><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "ghkcu",
+      "name": "GHK-CU",
+      "badge": "Skin",
+      "category": "energy",
+      "short": "Copper peptide\u2014supports skin texture and collagen-focused routines.",
+      "onset": "Usually gradual (weeks+).",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "50 mg",
+        "100 mg"
+      ],
+      "stock": {
+        "50 mg": 9,
+        "100 mg": 16
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "dsip",
+      "name": "DSIP",
+      "badge": "Nootropic",
+      "category": "energy",
+      "short": "Sleep support\u2014used for deeper rest and calmer nights.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "15 mg"
+      ],
+      "stock": {
+        "5 mg": 7,
+        "10 mg": 10,
+        "15 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "epithalon",
+      "name": "Epithalon",
+      "badge": "Longevity",
+      "category": "energy",
+      "short": "Longevity-style peptide\u2014often used for \u201caging support\u201d and overall vitality.",
+      "onset": "Usually gradual.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg",
+        "50 mg"
+      ],
+      "stock": {
+        "10 mg": 16,
+        "50 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "kpv",
+      "name": "KPV",
+      "badge": "Longevity",
+      "category": "energy",
+      "short": "Calming peptide often discussed for skin/gut comfort and inflammation-prone routines.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 3
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "semax",
+      "name": "Semax",
+      "badge": "Nootropic",
+      "category": "energy",
+      "short": "Focus support\u2014often used for clarity, motivation, and \u201csharp\u201d workdays.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "30 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 12,
+        "30 mg": 0
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "selank",
+      "name": "Selank",
+      "badge": "Nootropic",
+      "category": "energy",
+      "short": "Calm focus\u2014often used for stress support without feeling \u201cdull.\u201d",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "30 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 15,
+        "30 mg": 30
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "5amino1mq",
+      "name": "5-amino-1mq",
+      "badge": "Metabolic",
+      "category": "energy",
+      "short": "Metabolic support\u2014often used for recomposition goals and \u201cleaner\u201d progress.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg",
+        "50 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 10,
+        "50 mg": 9
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "cjc1295nodac",
+      "name": "CJC-1295 (no DAC)",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "GH-support peptide\u2014often used for recovery, sleep quality, and body goals.",
+      "onset": "Gradual.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 3
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "cjc1295withdac",
+      "name": "CJC-1295 (with DAC)",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Longer-acting CJC variant often discussed for steadier GH/IGF signaling.",
+      "onset": "Gradual.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg"
+      ],
+      "stock": {
+        "5 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "cjc1295nodac5mgipa5m",
+      "name": "CJC-1295 (no DAC) + Ipamorelin (Combo)",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Classic GH combo\u2014popular for recovery, sleep, and physique support.",
+      "onset": "Gradual.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "aod9604",
+      "name": "AOD-9604",
+      "badge": "Weight",
+      "category": "weight",
+      "short": "Fat-loss support peptide\u2014often used for stubborn areas and cutting phases.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "foxo4dri",
+      "name": "FOXO4-DRI",
+      "badge": "Longevity",
+      "category": "energy",
+      "short": "Experimental longevity peptide\u2014often discussed in senescent-cell research circles.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 9
+      },
+      "more": "<ul><li>Higher-risk category\u2014do serious research and consider professional guidance.</li><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "ahkcu",
+      "name": "AHK-CU",
+      "badge": "Skin",
+      "category": "energy",
+      "short": "Copper peptide\u2014supports healthier-looking skin and smoother texture.",
+      "onset": "Gradual (weeks+).",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "100 mg"
+      ],
+      "stock": {
+        "100 mg": 29
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "glutathione",
+      "name": "Glutathione",
+      "badge": "Antioxidant",
+      "category": "energy",
+      "short": "Antioxidant support\u2014often used for overall wellness and \u201cbright\u201d skin routines.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "1500 mg"
+      ],
+      "stock": {
+        "1500 mg": 8
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "hgh191aa",
+      "name": "HGH 191AA (Somatropin)",
+      "badge": "Hormone",
+      "category": "energy",
+      "short": "Prescription hormone\u2014used for GH therapy under medical supervision.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10iu",
+        "12iu",
+        "15iu",
+        "24iu",
+        "36iu"
+      ],
+      "stock": {
+        "10iu": 49,
+        "12iu": 20,
+        "15iu": 30,
+        "24iu": 39,
+        "36iu": 13
+      },
+      "more": "<ul><li>Only use with a licensed prescriber.</li><li>Educational info only\u2014always confirm your label, strength (IU), and storage.</li></ul>"
+    },
+    {
+      "key": "kisspeptin10",
+      "name": "KissPeptin-10",
+      "badge": "Hormone",
+      "category": "energy",
+      "short": "Hormone signaling peptide\u2014often discussed for reproductive axis support.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 9
+      },
+      "more": "<ul><li>Higher-risk category\u2014do serious research and consider professional guidance.</li><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "vip",
+      "name": "VIP",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Neuropeptide discussed for recovery and \u201csystem calming\u201d support.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg",
+        "10 mg"
+      ],
+      "stock": {
+        "5 mg": 10,
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "snap8",
+      "name": "snap-8",
+      "badge": "Skin",
+      "category": "energy",
+      "short": "Cosmetic peptide commonly used in topical/beauty formulations for smoother-looking skin.",
+      "onset": "Gradual (weeks+).",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "hcg",
+      "name": "HCG",
+      "badge": "Hormone",
+      "category": "energy",
+      "short": "Hormone-related compound often discussed in fertility or endocrine contexts\u2014best handled with medical guidance.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5000 iu",
+        "10000 iu"
+      ],
+      "stock": {
+        "5000 iu": 20,
+        "10000 iu": 10
+      },
+      "more": "<ul><li>Higher-risk category\u2014do serious research and consider professional guidance.</li><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "pt141",
+      "name": "PT-141 (Bremelanotide)",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Often discussed for libido/sexual wellness support via melanocortin pathways.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 6
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "ara290",
+      "name": "Ara-290",
+      "badge": "Wellness",
+      "category": "energy",
+      "short": "Research peptide discussed for tissue/nerve support and recovery contexts.",
+      "onset": "Varies.",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "10 mg"
+      ],
+      "stock": {
+        "10 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "Pinealon",
+      "name": "Pinealon",
+      "badge": "Longevity",
+      "category": "nootropic",
+      "short": "Synthetic tripeptide studied for potential neuroprotective and longevity-related properties.",
+      "onset": "Varies",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "20 mg"
+      ],
+      "stock": {
+        "20 mg": 10
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "SLU-PP-332",
+      "name": "SLU-PP-332",
+      "badge": "Metabolic",
+      "category": "energy",
+      "short": "Studied for its potential role in metabolic regulation and energy balance.",
+      "onset": "Varies",
+      "fact": "Form: Lyophilized powder",
+      "doses": [
+        "5 mg"
+      ],
+      "stock": {
+        "5 mg": 25
+      },
+      "more": "<ul><li>Educational info only\u2014always confirm your label and concentration.</li></ul>"
+    },
+    {
+      "key": "easytouch31gauge1ml5",
+      "name": "easytouch 31 gauge 1ml 5/16\" 8mm",
+      "badge": "Supply",
+      "category": "supplies",
+      "short": "Insulin syringes used for reconstitution workflows (supply item).",
+      "onset": "\u2014",
+      "fact": "Form: Insulin Syringe",
+      "doses": [
+        "10 pack"
+      ],
+      "stock": {
+        "10 pack": 64
+      },
+      "more": "<ul><li>Supply item. Keep sterile; label concentration and date once opened/used.</li></ul>"
+    },
+    {
+      "key": "lemonbottle",
+      "name": "Lemon Bottle",
+      "badge": "Supply",
+      "category": "supplies",
+      "short": "Cosmetic liquid product used in aesthetic contexts; follow label guidance.",
+      "onset": "\u2014",
+      "fact": "Form: Liquid",
+      "doses": [
+        "10 mg/ 10 mL"
+      ],
+      "stock": {
+        "10 mg/ 10 mL": 6
+      },
+      "more": "<ul><li>Supply item. Keep sterile; label concentration and date once opened/used.</li></ul>"
+    },
+    {
+      "key": "bacwater",
+      "name": "Bac Water",
+      "badge": "Supply",
+      "category": "supplies",
+      "short": "Sterile bacteriostatic water for reconstitution (supply item).",
+      "onset": "\u2014",
+      "fact": "Form: Liquid",
+      "doses": [
+        "10 mL"
+      ],
+      "stock": {
+        "10 mL": 32
+      },
+      "more": "<ul><li>Supply item. Keep sterile; label concentration and date once opened/used.</li></ul>"
+    },
+    {
+      "key": "aceticacid",
+      "name": "Acetic Acid",
+      "badge": "Supply",
+      "category": "supplies",
+      "short": "Acidic diluent used only when a peptide specifically calls for it.",
+      "onset": "\u2014",
+      "fact": "Form: Liquid",
+      "doses": [
+        "10 mL"
+      ],
+      "stock": {
+        "10 mL": 8
+      },
+      "more": "<ul><li>Supply item. Keep sterile; label concentration and date once opened/used.</li></ul>"
+    },
+    {
+      "key": "hospirabacwater",
+      "name": "Hospira Bac Water",
+      "badge": "Supply",
+      "category": "supplies",
+      "short": "Brand bacteriostatic water for reconstitution (supply item).",
+      "onset": "\u2014",
+      "fact": "Form: Liquid",
+      "doses": [
+        "30 mL"
+      ],
+      "stock": {
+        "30 mL": 28
+      },
+      "more": "<ul><li>Supply item. Keep sterile; label concentration and date once opened/used.</li></ul>"
+    }
+  ],
+  "prices_raw": [
+    [
+      "GLP-3RT (Retatrutide)",
+      "5 mg",
+      15.0,
+      "mg",
+      31
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "10 mg",
+      20.0,
+      "mg",
+      105
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "15 mg",
+      25.0,
+      "mg",
+      9
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "20 mg",
+      30.0,
+      "mg",
+      99
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "30 mg",
+      35.0,
+      "mg",
+      6
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "40 mg",
+      45.0,
+      "mg",
+      9
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "50 mg",
+      55.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "60 mg",
+      65.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "10mg kit x10",
+      160.0,
+      "mg",
+      8
+    ],
+    [
+      "GLP-3RT (Retatrutide)",
+      "20mg kit x10",
+      200.0,
+      "mg",
+      9
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "5 mg",
+      13.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "10 mg",
+      15.0,
+      "mg",
+      19
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "15 mg",
+      20.0,
+      "mg",
+      19
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "20 mg",
+      25.0,
+      "mg",
+      7
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "30 mg",
+      30.0,
+      "mg",
+      8
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "40 mg",
+      35.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "50 mg",
+      40.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "60 mg",
+      50.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-2TZ (Tirzepatide)",
+      "100 mg",
+      75.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-1SG (Semaglutide)",
+      "5 mg",
+      15.0,
+      "mg",
+      26
+    ],
+    [
+      "GLP-1SG (Semaglutide)",
+      "10 mg",
+      20.0,
+      "mg",
+      28
+    ],
+    [
+      "GLP-1SG (Semaglutide)",
+      "15 mg",
+      25.0,
+      "mg",
+      10
+    ],
+    [
+      "GLP-1SG (Semaglutide)",
+      "20 mg",
+      30.0,
+      "mg",
+      10
+    ],
+    [
+      "Survodutide",
+      "10 mg",
+      40.0,
+      "mg",
+      10
+    ],
+    [
+      "Cagrilintide",
+      "5 mg",
+      20.0,
+      "mg",
+      14
+    ],
+    [
+      "Cagrilintide",
+      "10 mg",
+      30.0,
+      "mg",
+      10
+    ],
+    [
+      "MOTS-C",
+      "10 mg",
+      20.0,
+      "mg",
+      17
+    ],
+    [
+      "MOTS-C",
+      "30 mg",
+      40.0,
+      "mg",
+      9
+    ],
+    [
+      "MOTS-C",
+      "40 mg",
+      50.0,
+      "mg",
+      5
+    ],
+    [
+      "BPC-157",
+      "10 mg",
+      20.0,
+      "mg",
+      7
+    ],
+    [
+      "BPC-157",
+      "20 mg",
+      35.0,
+      "mg",
+      10
+    ],
+    [
+      "BPC 5mg + TB 5mg (Combo)",
+      "10 mg",
+      25.0,
+      "mg",
+      9
+    ],
+    [
+      "BPC 10mg + TB 10mg (Combo)",
+      "20 mg",
+      35.0,
+      "mg",
+      8
+    ],
+    [
+      "TB500 (Thymosin B4 Acetate)",
+      "5 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "TB500 (Thymosin B4 Acetate)",
+      "10 mg",
+      30.0,
+      "mg",
+      10
+    ],
+    [
+      "Melanotan",
+      "10 mg",
+      20.0,
+      "mg",
+      9
+    ],
+    [
+      "Melanotan 2",
+      "10 mg",
+      20.0,
+      "mg",
+      9
+    ],
+    [
+      "GLOW",
+      "70 mg",
+      30.0,
+      "mg",
+      17
+    ],
+    [
+      "KLOW",
+      "80 mg",
+      35.0,
+      "mg",
+      25
+    ],
+    [
+      "NAD+",
+      "500 mg",
+      20.0,
+      "mg",
+      22
+    ],
+    [
+      "NAD+",
+      "1000 mg",
+      35.0,
+      "mg",
+      27
+    ],
+    [
+      "Ipamorelin",
+      "5 mg",
+      16.0,
+      "mg",
+      7
+    ],
+    [
+      "Ipamorelin",
+      "10 mg",
+      24.0,
+      "mg",
+      14
+    ],
+    [
+      "Tesamorelin",
+      "5 mg",
+      25.0,
+      "mg",
+      6
+    ],
+    [
+      "Tesamorelin",
+      "10 mg",
+      35.0,
+      "mg",
+      10
+    ],
+    [
+      "Sermorelin Acetate",
+      "5 mg",
+      18.0,
+      "mg",
+      10
+    ],
+    [
+      "Sermorelin Acetate",
+      "10 mg",
+      24.0,
+      "mg",
+      10
+    ],
+    [
+      "SS-31 (Elamipretide)",
+      "10 mg",
+      20.0,
+      "mg",
+      18
+    ],
+    [
+      "SS-31 (Elamipretide)",
+      "50 mg",
+      45.0,
+      "mg",
+      10
+    ],
+    [
+      "IGF-1 LR3",
+      "1 mg",
+      30.0,
+      "mg",
+      10
+    ],
+    [
+      "GHK-CU",
+      "50 mg",
+      20.0,
+      "mg",
+      9
+    ],
+    [
+      "GHK-CU",
+      "100 mg",
+      30.0,
+      "mg",
+      16
+    ],
+    [
+      "DSIP",
+      "5 mg",
+      15.0,
+      "mg",
+      7
+    ],
+    [
+      "DSIP",
+      "10 mg",
+      22.0,
+      "mg",
+      10
+    ],
+    [
+      "DSIP",
+      "15 mg",
+      28.0,
+      "mg",
+      10
+    ],
+    [
+      "Epithalon",
+      "10 mg",
+      20.0,
+      "mg",
+      16
+    ],
+    [
+      "Epithalon",
+      "50 mg",
+      40.0,
+      "mg",
+      10
+    ],
+    [
+      "KPV",
+      "5 mg",
+      18.0,
+      "mg",
+      10
+    ],
+    [
+      "KPV",
+      "10 mg",
+      24.0,
+      "mg",
+      3
+    ],
+    [
+      "Semax",
+      "5 mg",
+      15.0,
+      "mg",
+      10
+    ],
+    [
+      "Semax",
+      "10 mg",
+      20.0,
+      "mg",
+      12
+    ],
+    [
+      "Semax",
+      "30 mg",
+      35.0,
+      "mg",
+      0
+    ],
+    [
+      "Selank",
+      "5 mg",
+      15.0,
+      "mg",
+      10
+    ],
+    [
+      "Selank",
+      "10 mg",
+      20.0,
+      "mg",
+      15
+    ],
+    [
+      "Selank",
+      "30 mg",
+      35.0,
+      "mg",
+      30
+    ],
+    [
+      "5-amino-1mq",
+      "5 mg",
+      15.0,
+      "mg",
+      10
+    ],
+    [
+      "5-amino-1mq",
+      "10 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "5-amino-1mq",
+      "50 mg",
+      35.0,
+      "mg",
+      9
+    ],
+    [
+      "CJC-1295 (no DAC)",
+      "5 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "CJC-1295 (no DAC)",
+      "10 mg",
+      30.0,
+      "mg",
+      3
+    ],
+    [
+      "CJC-1295 (with DAC)",
+      "5 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "CJC-1295 (no DAC) + Ipamorelin (Combo)",
+      "10 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "AOD-9604",
+      "5 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "AOD-9604",
+      "10 mg",
+      30.0,
+      "mg",
+      10
+    ],
+    [
+      "FOXO4-DRI",
+      "10 mg",
+      45.0,
+      "mg",
+      9
+    ],
+    [
+      "AHK-CU",
+      "100 mg",
+      18.0,
+      "mg",
+      29
+    ],
+    [
+      "Glutathione",
+      "1500 mg",
+      25.0,
+      "mg",
+      8
+    ],
+    [
+      "HGH 191AA (Somatropin)",
+      "10iu",
+      20.0,
+      "iu",
+      49
+    ],
+    [
+      "HGH 191AA (Somatropin)",
+      "12iu",
+      22.0,
+      "iu",
+      20
+    ],
+    [
+      "HGH 191AA (Somatropin)",
+      "15iu",
+      25.0,
+      "iu",
+      30
+    ],
+    [
+      "HGH 191AA (Somatropin)",
+      "24iu",
+      35.0,
+      "iu",
+      39
+    ],
+    [
+      "HGH 191AA (Somatropin)",
+      "36iu",
+      45.0,
+      "iu",
+      13
+    ],
+    [
+      "KissPeptin-10",
+      "10 mg",
+      20.0,
+      "mg",
+      9
+    ],
+    [
+      "VIP",
+      "5 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "VIP",
+      "10 mg",
+      30.0,
+      "mg",
+      10
+    ],
+    [
+      "snap-8",
+      "10 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "HCG",
+      "5000 iu",
+      20.0,
+      "iu",
+      20
+    ],
+    [
+      "HCG",
+      "10000 iu",
+      30.0,
+      "iu",
+      20
+    ],
+    [
+      "PT-141 (Bremelanotide)",
+      "10 mg",
+      20.0,
+      "mg",
+      6
+    ],
+    [
+      "Ara-290",
+      "10 mg",
+      20.0,
+      "mg",
+      10
+    ],
+    [
+      "Pinealon",
+      "20 mg",
+      22.0,
+      "mg",
+      10
+    ],
+    [
+      "SLU-PP-332",
+      "5 mg",
+      25.0,
+      "mg",
+      25
+    ],
+    [
+      "easytouch 31 gauge 1ml 5/16\" 8mm",
+      "10 pack",
+      5.0,
+      "pack",
+      64
+    ],
+    [
+      "Lemon Bottle",
+      "10 mg/ 10 mL",
+      20.0,
+      "mL",
+      6
+    ],
+    [
+      "Acetic Acid",
+      "10 mL",
+      6.0,
+      "mL",
+      8
+    ],
+    [
+      "Bac Water",
+      "10 mL",
+      5.0,
+      "mL",
+      32
+    ],
+    [
+      "Hospira Bac Water",
+      "30 mL",
+      15.0,
+      "mL",
+      28
+    ]
+  ],
+  "price_multiplier_default": 1.0
+}
