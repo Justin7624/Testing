@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Black Vial Society — Peptide Guide</title>
+
+  <meta name="description" content="Educational peptide guide and price sheet with search, filters, and a concentration-to-syringe conversion calculator."/>
+  <meta property="og:title" content="Black Vial Society — Peptide Guide"/>
+  <meta property="og:description" content="Educational guide + price sheet with search, filters, and a mini calculator."/>
+  <meta property="og:type" content="website"/>
+
+  <link rel="stylesheet" href="styles_fixed.css"/>
+</head>
+<body class="body-pad">
+  <header>
+    <div class="wrap">
+      <div class="brand-banner">
+        <img
+          src="Black_Vial_Society_Transparent_Header.png"
+          alt="Black Vial Society"
+          class="banner-img"
+          width="1320"
+          height="360"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Sections">
+        <button class="tab active" id="tab-guide" role="tab" aria-selected="true" aria-controls="panel-guide" data-tab="guide" type="button">
+          Guide
+        </button>
+        <button class="tab" id="tab-prices" role="tab" aria-selected="false" aria-controls="panel-prices" data-tab="prices" type="button">
+          Price Sheet
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- GUIDE -->
+  <main class="wrap section active" id="panel-guide" role="tabpanel" aria-labelledby="tab-guide" tabindex="0">
+    <div class="title-row">
+      <img src="Black_Vial_Society_Transparent_Logo.png" class="vial-icon" alt="Vial" width="56" height="56" loading="lazy" decoding="async"/>
+      <h1>Peptide Guide</h1>
+    </div>
+
+    <div class="toolbar" aria-label="Guide controls">
+      <div class="search">
+        <label class="sr-only" for="q">Search guide</label>
+        <input id="q" inputmode="search" autocomplete="off" placeholder="Search name or purpose… (e.g., weight loss, tanning, energy, healing)"/>
+      </div>
+
+      <button class="chip active" data-filter="all" type="button" aria-pressed="true">All</button>
+      <button class="chip" data-filter="weight" type="button" aria-pressed="false">Weight &amp; glucose</button>
+      <button class="chip" data-filter="tanning" type="button" aria-pressed="false">Tanning</button>
+      <button class="chip" data-filter="healing" type="button" aria-pressed="false">Injury &amp; recovery</button>
+      <button class="chip" data-filter="energy" type="button" aria-pressed="false">Energy / anti-aging</button>
+      <button class="chip" data-filter="supplies" type="button" aria-pressed="false">Mixing supplies</button>
+
+      <button class="chip" id="expand" type="button">Expand all</button>
+      <button class="chip" id="collapse" type="button">Collapse all</button>
+      <button class="chip" id="toggleOOS" type="button" aria-pressed="false">Hide out-of-stock</button>
+    </div>
+
+    <div class="status" id="gstatus" aria-live="polite"></div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" style="display:none">No items match your search/filter.</div>
+
+    <div class="small" style="margin-top:10px">
+      Calculator note: This tool only converts concentration ↔ volume/syringe units. It does not determine dosing.
+    </div>
+  </main>
+
+  <!-- PRICE SHEET -->
+  <main class="wrap section" id="panel-prices" role="tabpanel" aria-labelledby="tab-prices" tabindex="0">
+    <div class="title-row" style="margin-top:6px">
+      <img src="Black_Vial_Society_Transparent_Logo.png" class="vial-icon" alt="Vial" width="56" height="56" loading="lazy" decoding="async"/>
+      <h1>Price Sheet</h1>
+    </div>
+
+    <div class="price-toolbar" aria-label="Price sheet controls">
+      <div class="search">
+        <label class="sr-only" for="pq">Search price sheet</label>
+        <input id="pq" inputmode="search" autocomplete="off" placeholder="Search product or strength…"/>
+      </div>
+
+      <button class="chip" id="ptoggleOOS" type="button" aria-pressed="false">Hide out-of-stock</button>
+<span class="small">Click headers to sort</span>
+      <span class="small" id="updated"></span>
+    </div>
+
+    <div class="status" id="pstatus" aria-live="polite"></div>
+
+    <div class="small" style="margin-bottom:8px">
+      Price per unit = price ÷ amount (mg or IU). (Vials only.)
+    </div>
+
+    <table id="priceTable">
+      <thead>
+        <tr>
+          <th class="sort" data-sort="name" scope="col">Product <span class="arrow" aria-hidden="true"></span></th>
+          <th class="sort" data-sort="strength" scope="col">Strength <span class="arrow" aria-hidden="true"></span></th>
+          <th class="sort num" data-sort="amount" scope="col">Amount <span class="arrow" aria-hidden="true"></span></th>
+          <th class="sort num" data-sort="price" scope="col">Price <span class="arrow" aria-hidden="true"></span></th>
+          <th class="sort num" data-sort="ppu" scope="col">Price / unit <span class="arrow" aria-hidden="true"></span></th>
+          <th class="sort num" data-sort="stock" scope="col">Stock <span class="arrow" aria-hidden="true"></span></th>
+          <th scope="col">Unit</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="pempty" class="empty" style="display:none">No matches.</div>
+  </main>
+
+  <footer class="footer">
+    <div class="foot-wrap">
+      <div class="small">Educational use only. Not medical advice.</div>
+      <div></div>
+    </div>
+  </footer>
+
+  <script defer src="app_fixed.js"></script>
+</body>
+</html>
