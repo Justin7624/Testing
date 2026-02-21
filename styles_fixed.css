@@ -1,0 +1,206 @@
+:root{
+    --bg:#0e0f12; --card:#16171c; --ink:#e8e9ef; --ink-2:#b8b9c2;
+    --brand:#63e6be; --brand-2:#3fc29a; --shadow:0 10px 30px rgba(0,0,0,.35);
+    --classic-a:#7c5cff; --classic-b:#5b9dff; --classic-c:#25d0a6;
+    --warn:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  html,body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.45}
+  img{max-width:100%;display:block}
+
+  header{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,#0e0f12 60%,rgba(14,15,18,.7));border-bottom:1px solid #222531}
+  .wrap{max-width:1100px;margin:auto;padding:12px}
+  .brand-banner{display:flex;justify-content:center}
+  /* Banner sized to match OG site (avoid taking over the viewport) */
+  .banner-img{width:min(420px,78vw);max-height:140px;height:auto;object-fit:contain;filter:drop-shadow(var(--shadow))}
+  @media (max-width: 520px){
+    .banner-img{width:min(360px,88vw);max-height:110px}
+  }
+  .tabs{display:flex;gap:8px;margin-top:10px}
+  .tab{padding:8px 12px;border-radius:999px;border:1px solid #2b2e3b;background:#1b1d24;color:#c7c9d6;cursor:pointer}
+  .tab.active{background:rgba(99,230,190,.12);border-color:#3fc29a;color:#e8e9ef}
+  .section{display:none}
+  .section.active{display:block}
+
+  .title-row{display:flex;align-items:center;gap:10px;margin-top:12px}
+  .title-row h1{margin:0;font-size:22px;font-weight:800}
+  .vial-icon{width:28px;height:auto;filter:drop-shadow(0 6px 18px rgba(0,0,0,.35))}
+
+  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .search{flex:1 1 340px;display:flex;gap:10px;align-items:center;background:#16171c;border:1px solid #272a36;border-radius:999px;padding:10px 14px;box-shadow:var(--shadow)}
+  .search input{flex:1;border:0;background:transparent;color:var(--ink);outline:none}
+  .chip{display:inline-flex;align-items:center;gap:8px;border:1px solid #2b2e3b;background:#1e2027;color:#b8b9c2;padding:8px 12px;border-radius:999px;cursor:pointer}
+  .chip.active{border-color:#3fc29a;background:rgba(99,230,190,.12);color:#e8e9ef}
+
+  .grid{display:grid;gap:16px;margin:16px 0 80px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+  .card{background:linear-gradient(180deg,#16171c,#15161b);border:1px solid #262938;border-radius:14px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
+  .title{display:flex;justify-content:space-between;align-items:center}
+  .title h3{margin:0;font-size:16px}
+  .pill{font-size:11px;background:rgba(99,230,190,.12);color:#63e6be;border:1px solid #3fc29a;padding:5px 8px;border-radius:999px}
+  .desc{color:#b8b9c2;font-size:13px}
+  .onset{color:#e9e9f5;font-size:12px;background:#1c2130;border:1px dashed #2f3650;padding:8px;border-radius:10px}
+  .dose-label{font-size:12px;color:#cfd0d8}
+  .doses{display:flex;flex-wrap:wrap;gap:8px}
+  .dose{padding:6px 10px;border-radius:10px;border:1px solid #2b2e3b;background:#1a1c22;font-size:12px;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+  .dose:disabled{cursor:not-allowed;opacity:.55}
+  .stock-badge{font-size:11px;padding:2px 7px;border-radius:999px;border:1px solid #2b2e3b;background:#12141a;color:#aab2c5}
+  .stock-badge.ok{border-color:#2f7b62;color:#aef2dc;background:rgba(99,230,190,.08)}
+  .stock-badge.low{border-color:#7a6a2f;color:#ffe7a6;background:rgba(255,215,106,.08)}
+  .stock-badge.out{border-color:#7a2f2f;color:#ffb0b0;background:rgba(255,107,107,.10)}
+
+  .empty{color:#b8b9c2;text-align:center;padding:40px;border:1px dashed #2b2f3d;border-radius:14px;background:#14161a}
+
+  
+  /* More info dropdown (only collapsible section) */
+  details.moreinfo{margin-top:8px}
+  details.moreinfo > summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;color:#cfd0d8;font-size:13px;font-weight:700}
+  details.moreinfo > summary::-webkit-details-marker{display:none}
+  details.moreinfo > summary::before{content:"▶";font-size:11px;opacity:.8}
+  details.moreinfo[open] > summary::before{content:"▼"}
+/* Mini calculator dropdown */
+  .mini-wrap{margin-top:8px;border:1px solid #2a2d3c;background:#14161b;border-radius:12px;overflow:visible;display:none}
+  .mini-head{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;font-weight:700;font-size:13px}
+  .mini-sub{font-size:12px;color:#b8b9c2;font-weight:600;margin-top:2px}
+  .close-mini{cursor:pointer;border:1px solid #2b2e3b;background:#1a1d26;border-radius:999px;color:#cfd0d8;padding:6px 10px;font-size:12px}
+  .mini-body{display:grid;gap:12px;padding:10px 12px;border-top:1px solid #24283a}
+
+  /* Mini calculator fields */
+  .mini-wrap{position:relative}
+  .mini-field{display:flex;flex-direction:column;gap:6px;min-width:0}
+  .mini-field label{font-size:12px;color:#b8b9c2}
+  .mini-field input, .mini-field select{width:100%;background:#0f1116;border:1px solid #2b2e3b;border-radius:10px;color:#e8e9ef;padding:8px 10px;font-size:13px;min-width:0}
+  .mini-field select{position:relative;z-index:5}
+
+  /* Exact layout requested:
+     Peptide per vial | unit | Diluent added
+     Desired dose     | unit | Syringe scale
+  */
+  .mini-form{
+    display:grid;
+    grid-template-columns: 1fr 96px 1fr;
+    grid-template-areas:
+      "pep pepUnit dil"
+      "des desUnit syr";
+    gap:12px;
+    align-items:end;
+  }
+  .field-pep{grid-area:pep}
+  .field-pepUnit{grid-area:pepUnit}
+  .field-diluent{grid-area:dil}
+  .field-desired{grid-area:des}
+  .field-desiredUnit{grid-area:desUnit}
+  .field-syringe{grid-area:syr}
+
+  .mini-unit label{height:14px}
+  .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+  @media (max-width: 560px){
+    .mini-form{
+      grid-template-columns: 1fr 96px;
+      grid-template-areas:
+        "pep pepUnit"
+        "dil dil"
+        "des desUnit"
+        "syr syr";
+    }
+  }
+
+  /* Classic syringe visual (mini) */
+  .classic{background:#0c0d11;border:1px solid #272930;border-radius:12px;padding:12px;margin-top:6px}
+  .tube{position:relative;height:28px;border-radius:16px;background:linear-gradient(180deg,#11131a,#0b0c10);border:1px solid #2a2c33;box-shadow:inset 0 2px 8px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.05)}
+  .fill{position:absolute;left:0;top:0;bottom:0;width:0%;background:linear-gradient(90deg,var(--classic-a),var(--classic-b));border-radius:16px;box-shadow:inset 0 0 12px rgba(255,255,255,.25), 0 0 16px rgba(124,92,255,.45)}
+  .cursor{position:absolute;top:-6px;width:2px;background:var(--classic-c);height:40px;border-radius:2px;box-shadow:0 0 0 2px rgba(37,208,166,.15)}
+  .ticks{position:relative;display:flex;justify-content:space-between;align-items:flex-start;margin-top:8px;margin-bottom:6px;padding:0 2px}
+  .tick{position:relative;width:1px;background:#3a3d47}
+  .tick.minor{height:8px;opacity:.55}
+  .tick.major{height:14px}
+  .tick .n{position:absolute;top:16px;left:50%;transform:translateX(-50%);font-size:11px;color:#aab2c5}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
+  .stat{background:#10131a;border:1px dashed #2c3450;padding:10px;border-radius:10px;font-size:13px}
+  .stat b{display:block;font-size:12px;color:#9fb3d2;margin-bottom:4px}
+  .warn{margin-top:10px;color:var(--warn);font-weight:700;font-size:13px}
+
+
+  /* COA (Certificate of Analysis) */
+
+  /* COA modal / lightbox */
+  .bvs-modal-overlay{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:9999;background:rgba(0,0,0,.72);backdrop-filter:blur(6px)}
+  .bvs-modal-overlay.open{display:flex}
+  .bvs-modal-card{width:min(980px,92vw);max-height:92vh;background:#0f1116;border:1px solid #262938;border-radius:14px;box-shadow:0 18px 60px rgba(0,0,0,.55);overflow:hidden;display:flex;flex-direction:column}
+  .bvs-modal-head{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-bottom:1px solid #24283a}
+  .bvs-modal-head b{font-size:13px}
+  .bvs-modal-close{cursor:pointer;border:1px solid #2b2e3b;background:#1a1d26;border-radius:999px;color:#cfd0d8;padding:6px 10px;font-size:12px}
+  .bvs-modal-body{padding:12px;overflow:auto}
+  .bvs-modal-img{width:100%;height:auto;border-radius:10px;border:1px solid #2b2e3b;background:#0b0d12}
+  .bvs-modal-nav{display:flex;gap:8px;align-items:center}
+  .bvs-modal-nav button{cursor:pointer;border:1px solid #2b2e3b;background:#1a1d26;border-radius:10px;color:#cfd0d8;padding:6px 10px;font-size:12px}
+  .bvs-modal-count{font-size:12px;color:#b8b9c2}
+
+  .coa-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+  .coa-btn{user-select:none}
+  .coa-panel{margin-top:10px;border:1px solid #262938;background:#12141a;border-radius:12px;overflow:hidden;display:none}
+  .coa-panel.open{display:block}
+  .coa-head{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-bottom:1px solid #24283a}
+  .coa-head b{font-size:13px}
+  .coa-note{font-size:12px;color:#b8b9c2}
+  .coa-body{padding:12px}
+  .coa-img{width:100%;border-radius:10px;border:1px solid #2b2e3b;background:#0f1116}
+  .coa-placeholder{display:flex;flex-direction:column;gap:8px}
+  .coa-placeholder .tag{display:inline-flex;align-items:center;gap:8px;border:1px solid #2b2e3b;background:#1e2027;color:#b8b9c2;padding:6px 10px;border-radius:999px;font-size:12px;width:max-content}
+  .coa-placeholder .hint{font-size:12px;color:#b8b9c2;opacity:.9}
+
+
+  /* Price table */
+  .price-toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0;align-items:center}
+
+      table{width:100%;border-collapse:separate;border-spacing:0 8px}
+  th,td{padding:12px 14px;font-size:14px}
+  thead th{color:#cfd0d8;text-align:left}
+  tbody tr{background:#15161b;border:1px solid #262938;box-shadow:var(--shadow)}
+  tbody td:first-child, thead th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}
+  tbody td:last-child, thead th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .unit-pill{font-size:11px;background:#19212c;border:1px solid #2a3446;color:#9fb3d2;padding:3px 8px;border-radius:999px}
+
+  .footer{position:fixed;left:0;right:0;bottom:0;background:#0f1116;border-top:1px solid #242736}
+  .foot-wrap{max-width:1100px;margin:auto;padding:10px 16px;display:flex;justify-content:space-between;align-items:center}
+  .small{font-size:12px;color:#b8b9c2}
+
+/* (Old mobile-only calculator overrides removed — calculator layout is handled by .mini-form rules.) */
+
+/* Accessibility helpers */
+.sr-only{
+  position:absolute !important;
+  width:1px;height:1px;
+  padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);
+  white-space:nowrap;border:0;
+}
+:focus-visible{
+  outline:2px solid var(--brand);
+  outline-offset:2px;
+}
+
+/* Make clickable chips actual buttons look consistent */
+button.chip, button.tab{
+  font:inherit;
+}
+
+/* Footer-safe layout: ensure content is never hidden behind fixed footer */
+.body-pad{
+  padding-bottom:72px; /* should be >= footer height */
+}
+
+/* Result counters */
+.status{
+  font-size:12px;
+  color:var(--ink-2);
+  margin-top:6px;
+}
+.sort .arrow{
+  display:inline-block;
+  margin-left:6px;
+  font-size:12px;
+  opacity:.8;
+}
